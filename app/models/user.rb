@@ -9,7 +9,7 @@ class User < ActiveRecord::Base
     where(email: access_token.info.email).first_or_create do |user|
       user.email = access_token.info.email
       user.password = Devise.friendly_token[0,20]
-      user.name = access_token.info.name   # assuming the user model has a name
+      #user.name = access_token.info.name   # assuming the user model has a name
     end
 
   end
