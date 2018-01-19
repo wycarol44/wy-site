@@ -5,5 +5,7 @@ Rails.application.routes.draw do
     resources :colors
   end
   
+  resources :meals
+  
   root to: "home#index"
 end

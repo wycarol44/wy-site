@@ -1,0 +1,21 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  user_id: 1
+  calories: 1
+  carbs: 1
+  sodium: 1
+  iron: 1
+  sugar: 1
+  fat: 1
+  date: 2018-01-19 22:26:58
+
+two:
+  user_id: 1
+  calories: 1
+  carbs: 1
+  sodium: 1
+  iron: 1
+  sugar: 1
+  fat: 1
+  date: 2018-01-19 22:26:58

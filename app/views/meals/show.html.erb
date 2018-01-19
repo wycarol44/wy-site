@@ -1,0 +1,44 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>User:</strong>
+  <%= @meal.user_id %>
+</p>
+
+<p>
+  <strong>Calories:</strong>
+  <%= @meal.calories %>
+</p>
+
+<p>
+  <strong>Carbs:</strong>
+  <%= @meal.carbs %>
+</p>
+
+<p>
+  <strong>Sodium:</strong>
+  <%= @meal.sodium %>
+</p>
+
+<p>
+  <strong>Iron:</strong>
+  <%= @meal.iron %>
+</p>
+
+<p>
+  <strong>Sugar:</strong>
+  <%= @meal.sugar %>
+</p>
+
+<p>
+  <strong>Fat:</strong>
+  <%= @meal.fat %>
+</p>
+
+<p>
+  <strong>Date:</strong>
+  <%= @meal.date %>
+</p>
+
+<%= link_to 'Edit', edit_meal_path(@meal) %> |
+<%= link_to 'Back', meals_path %>
